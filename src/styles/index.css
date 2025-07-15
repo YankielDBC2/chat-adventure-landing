@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Oculta scroll horizontal sin afectar el diseño */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE y Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Quitar el cursor intermitente de todos los elementos que no sean inputs o textarea */
+* {
+  caret-color: transparent;
+}
+
+/* Animación de fondo sutil */
+@keyframes floatBackground {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}

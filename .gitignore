@@ -1,0 +1,23 @@
+# node
+node_modules/
+dist/
+.env
+.vite
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+desktop.ini
